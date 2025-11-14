@@ -5,7 +5,8 @@ image:
 
 replicaCount: 1
 
-imagePullSecrets: []
+imagePullSecrets:
+  - name: ghcr-dndbeyond
 
 featureFlags: {}
   # FEATURE_FOO: enabled
